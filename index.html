@@ -1,18 +1,269 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+<head>
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+    <title>Getting Started with CNC - The Book</title>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="vendor/device-mockups/device-mockups.min.css">
+
+    <!-- Theme CSS -->
+    <link href="css/new-age.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Getting Started with CNC</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#download">Buy Now!</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#features">Content</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+
+    </nav>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="header-content">
+                        <div class="header-content-inner">
+                            <h1>Getting Started with CNC teaches you the basics of using a CNC machine. </h1>
+                            <h1>No experience required.</h1>
+                            <a target="_blank" href="https://www.amazon.com/Getting-Started-CNC-Fabrication-Computer-Controlled/dp/1457183366/ref=sr_1_1?ie=UTF8&qid=1473631485&sr=8-1&keywords=getting+started+with+CNC" class="btn btn-outline btn-xl page-scroll">Get Started Today!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="device-container">
+                        <!--<div class="device-mockup iphone6_plus portrait white">-->
+                        <div class="book">
+                            <div class="">
+                                <div class="">
+                                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                                    <img src="img/gswcnc-cover.png" class="img-responsive" alt="">
+                                </div>
+                                <div class="button">
+                                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="download" class="download bg-primary text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h2 class="section-heading">Discover what all the buzz is about!</h2>
+                    <p>If you have ever thought about owning a CNC machine, but didn't know where to start, this book is for you!</p>
+                    <div class="badges">
+                        <a target="_blank" class="badge-link" href="https://www.amazon.com/Getting-Started-CNC-Fabrication-Computer-Controlled/dp/1457183366/ref=sr_1_1?ie=UTF8&qid=1473631485&sr=8-1&keywords=getting+started+with+CNC"><img src="img/amazon-com-black.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="section-heading">
+                        <h2>All the information you need, chapter by chapter</h2>
+                        <p class="text-muted">The basics of understanding CNC, one chapter at a time</p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                
+
+                <div class="col-md-6">
+					<img src="img/gswcnc-cover.png" class="img-responsive" alt="">
+                </div>
+
+                <div class="col-md-6">
+                    <div class="container-fluid">
+                    	<h4 class="chapter">Chapter 1: Introduction</bold></h4>
+                    	<h5>An overview chapter about the basics of CNC machines and what to expect in the rest of the book.</h5>
+                    	
+                    	<h4 class="chapter">Chapter 2: Mechanical</h4>
+                    	<h5>Explore how CNC machines work from a mechanical point of view. This chapter describes the physical components of a CNC machine.</h5>
+
+                    	<h4 class="chapter">Chapter 3: Endmills and Cutting</h4>
+                    	<h5>De-mystify endmills and learn what speeds and feeds are, and why you need to know them.</h5>
+                    	
+                    	<h4 class="chapter">Chapter 4: CAD Basics</h4>
+                    	<h5>You dont have to know anything about AutoCAD to start making great parts today!</h5>
+
+                    	<h4 class="chapter">Chapter 5: CAM Basics</h4>
+                    	<h5>Learn what toolpaths are, and how to use them.</h5>
+                    	
+                    	<h4 class="chapter">Chapter 6: Tutorials</h4>
+                    	<h5>Tutorials intended to showcase the workflow of going from idea to part on any CNC machine.</h5>
+
+                    	<h4 class="chapter">Chapter 7: Electro-Mechanical</h4>
+                    	<h5>Describes what electronics are required to run a CNC machine, how they work, and what each component is responsible for.</h5>
+                    	
+                    	<h4 class="chapter">Chapter 8: G-Code</h4>
+                    	<h5>Learn about the language that drives these machines, how it is structured, and what all of those cryptic godes mean.</h5>
+
+                    	<h4 class="chapter">Chapter 9: Practical Machining</h4>
+                    	<h5>A collection of real life scenarios and how-to pointers that will smooth out your path to getting started with CNC.</h5>
+
+                </div>
+            </div>
+    </section>
+
+    <section class="cta">
+        <div class="cta-content">
+            <div class="container">
+                <h2>Stop waiting.<br>Start making.</h2>
+                <a target="_blank" href="https://www.amazon.com/Getting-Started-CNC-Fabrication-Computer-Controlled/dp/1457183366/ref=sr_1_1?ie=UTF8&qid=1473631485&sr=8-1&keywords=getting+started+with+CNC" class="btn btn-outline btn-xl btn-buy">Let's Get Started!</a>
+            </div>
+        </div>
+        <div class="overlay"></div>
+    </section>
+
+    <section id="contact" class="contact bg-primary drip">
+        <div class="container">
+			<form action="https://www.getdrip.com/forms/56004837/submissions" method="post" data-drip-embedded-form="56004837">
+				<h2 data-drip-attribute="headline">Want to know more?</h2>
+				<div class="form-group" data-drip-attribute="description">
+					<h3>Receive tips and tricks about CNC hardware and software along with project tutorials and other useful information related to CNC.</h3>
+				</div>
+				<div class="col-xs-4 col-xs-offset-4">
+					<div class="form-group">
+						<label for="fields[email]"><h4>Email Address</h4></label><br/>
+						<input class="form-control block" type="email" name="fields[email]" value="" />
+					</div>
+					<div class="form-group">
+						<input class="btn btn-default btn-xl" type="submit" name="submit" value="Sign Up" data-drip-attribute="sign-up-button" />
+					</div>
+				</div>
+
+			</form>
+        </div>
+    </section>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="header-content">
+                        <div class="header-content-inner">
+                            <h2>About the Author </h2>
+                            <h3>Edward Ford</h3>
+
+                            <p>In 2011, Edward designed and released Project <a target="_blank" href="http:/www.carbide3d.com/">Shapeoko</a> via Kickstarter. Shapeoko has become one of the most popular desktop CNC machines on the market and continues to be a market leader and trendsetter.</p>
+
+                            <p>In 2014, Edward helped cofound Carbide 3D, a company that specializes in the design and production of desktop manufacturing equipment such as the Shapeoko and Nomad lines of CNC machines.</p>
+
+                            <p>At Carbide 3D, Edward leads the Shapeoko product line and develops other great desktop manufacturing software and equipment.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 bio">
+                    <div class="device-container">
+                        <!--<div class="device-mockup iphone6_plus portrait white">-->
+                        <div class="book">
+                            <div class="">
+                                <div class="device">
+                                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                                    <img src="img/edward.jpg" class="img-responsive" alt="">
+                                </div>
+                                <div class="button">
+                                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2016 Edward Ford. All Rights Reserved.</p>
+            <!--
+            <ul class="list-inline">
+                <li>
+                    <a href="#">Privacy</a>
+                </li>
+                <li>
+                    <a href="#">Terms</a>
+                </li>
+                <li>
+                    <a href="#">FAQ</a>
+                </li>
+            </ul>
+            -->
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/new-age.min.js"></script>
+
+</body>
+
+</html>
